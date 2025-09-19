@@ -24,7 +24,7 @@ const DownloadAppSection: React.FC<DownloadAppSection> = ({ section }) => {
                             </div>
                             <div className="mt-[40px] flex max-h-[48px] w-4/5 items-center justify-center gap-4 mx-auto">
                                 {section.download.map((app) => (
-                                    <div key={app.logo}><img src={app.logo} alt="" /></div> // Ensure each child has a key
+                                    <div key={app.logo}><img src={app.logo} alt="" className="inline-block transform transition-transform duration-300 hover:scale-105" /></div> // Ensure each child has a key
                                 ))}
                             </div>
                         </div>
