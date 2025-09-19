@@ -16,3 +16,14 @@ export interface Footer {
   }[];
   copyrightText: string;
 }
+
+export interface Download {
+  desktopImage: string;
+  mobileImage: string;
+  title: string;
+  description: string;
+  download: {
+    logo: string;
+  }[];
+}
+

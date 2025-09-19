@@ -1,4 +1,4 @@
-import { Footer } from "./interface";
+import { Download, Footer } from "./interface";
 
 const content = {
   footer: {
@@ -26,7 +26,7 @@ const content = {
         {
           name: "linkedin",
           logo: "images/logos/linkedIn.svg",
-          link: "https://www.linkedin.com", 
+          link: "https://www.linkedin.com",
         },
         {
           name: "instagram",
@@ -61,6 +61,21 @@ const content = {
     copyrightText:
       "By continuing past this page, you agree to our Terms of Service, Privacy Policy, Cookie Policy, Privacy Policy, and Content Policies. All trademarks are properties of their respective owners. 2008-2025 © Zomato™ Ltd. All rights reserved.",
   } as Footer,
+
+  download: {
+    desktopImage: "/images/homePage/downloadSection/desktopImage.png",
+    mobileImage: "/images/homePage/downloadSection/mobileImage.png",
+    title: "Download the app now!",
+    description: "Experience seamless online ordering only on the Zomato app",
+    download: [
+      {
+        logo: "/images/logos/playstore.png",
+      },
+      {
+        logo: "/images/logos/appstore.png",
+      },
+    ],
+  } as Download
 };
 
 export default content;
